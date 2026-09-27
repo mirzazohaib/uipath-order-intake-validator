@@ -1,0 +1,34 @@
+# UiPath local/runtime files
+**/.local/
+**/.settings/
+**/.tmh/
+**/.objects/
+**/.entities/
+**/.templates/
+
+# UiPath packages and logs
+*.nupkg
+*.log
+Execution.log
+RobotLogs/
+
+# Build/output/temp folders
+bin/
+obj/
+temp/
+.tmp/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Excel temporary lock files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# Optional: kept output files if as it is a demo project
+# If you do not want generated outputs in GitHub, uncomment:
+# output/*.xlsx
