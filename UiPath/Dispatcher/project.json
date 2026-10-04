@@ -1,7 +1,7 @@
 {
-  "name": "OrderIntakeDispatcher",
+  "name": "Dispatcher",
   "projectId": "ea640c40-8949-48a6-a1cf-d84e89952a4c",
-  "description": "Blank Process",
+  "description": "Reads Excel orders and creates Orchestrator queue transactions.",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.6.1]",

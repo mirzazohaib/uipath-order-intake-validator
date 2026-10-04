@@ -1,6 +1,6 @@
 {
-  "Name": "OrderIntakeValidator",
+  "Name": "ValidatorV1",
   "ProjectType": "Process",
-  "Description": "Blank Process",
+  "Description": "Validator V1 for the RPA Order Intake Validator portfolio project. Standalone Excel-based order intake validation workflow.",
   "MainFile": "Main.xaml"
 }

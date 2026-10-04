@@ -1,6 +1,6 @@
 {
-  "Name": "OrderIntakeDispatcher",
+  "Name": "Dispatcher",
   "ProjectType": "Process",
-  "Description": "Blank Process",
+  "Description": "Reads Excel orders and creates Orchestrator queue transactions.",
   "MainFile": "Main.xaml"
 }

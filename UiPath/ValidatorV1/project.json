@@ -1,7 +1,7 @@
 {
-  "name": "OrderIntakeValidator",
+  "name": "ValidatorV1",
   "projectId": "319f4df0-89f7-481b-a6d4-9c96f607fb4b",
-  "description": "Blank Process",
+  "description": "Validator V1 for the RPA Order Intake Validator portfolio project. Standalone Excel-based order intake validation workflow.",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.6.1]",
