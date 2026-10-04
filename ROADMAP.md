@@ -15,33 +15,38 @@ This document outlines the planned evolution of the project.
 - [x] Top-level Try/Catch
 - [x] Repository restructuring
 - [x] Git branching strategy
+- [x] Dispatcher project
+- [x] Shared Config.xlsx
+- [x] Configuration dictionary
+- [x] Configuration-driven input file path
+- [x] Configuration-driven queue name
+- [x] Standardized Dispatcher logging
 
 ---
 
 # In Progress
 
-- [ ] Dispatcher
-- [ ] Configuration management
+## Dispatcher
+
+- [ ] Externalize validation settings
+- [ ] Enable queue unique references
+- [ ] Dispatcher review and refactoring
 
 ---
 
 # Planned
 
-## Dispatcher
-
-- [ ] Config.xlsx
-- [ ] Remove hardcoded values
-- [ ] Professional logging
-- [ ] Queue unique references
-- [ ] Dispatcher review and refactoring
-
 ## Performer
 
-- [ ] REFramework
-- [ ] Process queue transactions
+- [ ] Create Performer project
+- [ ] Introduce REFramework
+- [ ] Retrieve queue transactions
+- [ ] Process queue items
 - [ ] Business Exception handling
 - [ ] System Exception handling
 - [ ] Transaction retry handling
+- [ ] Shared configuration
+- [ ] Standardized logging
 
 ---
 

@@ -11,6 +11,9 @@ The format is inspired by _Keep a Changelog_.
 ### Added
 
 - Dispatcher UiPath project
+- Shared `Config.xlsx` for Dispatcher configuration
+- Configuration dictionary for runtime configuration lookups
+- Standardized Dispatcher logging using configurable `ComponentName` and `Environment`
 - Repository documentation
 - CHANGELOG.md
 - ROADMAP.md
@@ -24,6 +27,10 @@ The format is inspired by _Keep a Changelog_.
 
 - Reorganized repository structure
 - Renamed `OrderIntakeValidator` to `ValidatorV1`
+- Dispatcher now loads the input file path from `Config.xlsx`
+- Dispatcher now loads the Orchestrator queue name from `Config.xlsx`
+- Dispatcher now loads configuration into a runtime dictionary
+- Dispatcher logging now uses a configurable log prefix
 - Removed generated Excel output files from version control
 - Added `output/.gitkeep`
 - Updated `.gitignore`
