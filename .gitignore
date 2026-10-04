@@ -1,4 +1,10 @@
+# ==========================================================
+# UiPath Order Intake Validator
+# ==========================================================
+
+# --------------------------
 # UiPath local/runtime files
+# --------------------------
 **/.local/
 **/.settings/
 **/.tmh/
@@ -6,29 +12,59 @@
 **/.entities/
 **/.templates/
 
-# UiPath packages and logs
-*.nupkg
+# Keep project metadata required to open the project
+!**/.project/
+
+# --------------------------
+# Build / temporary files
+# --------------------------
+bin/
+obj/
+temp/
+
+# --------------------------
+# Logs
+# --------------------------
 *.log
 Execution.log
 RobotLogs/
 
-# Build/output/temp folders
-bin/
-obj/
-temp/
-.tmp/
+# --------------------------
+# Generated output files
+# --------------------------
+output/*.xlsx
+!output/.gitkeep
 
-# OS/editor files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
+# --------------------------
 # Excel temporary lock files
+# --------------------------
 ~$*.xlsx
 ~$*.xls
 ~$*.xlsm
 
-# Optional: kept output files if as it is a demo project
-# If you do not want generated outputs in GitHub, uncomment:
-# output/*.xlsx
+# --------------------------
+# Visual Studio Code
+# --------------------------
+.vscode/settings.json
+
+# --------------------------
+# JetBrains
+# --------------------------
+.idea/
+
+# --------------------------
+# Operating System files
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# User-specific files
+# --------------------------
+*.user
+*.local
+
+# --------------------------
+# UiPath packages
+# --------------------------
+*.nupkg

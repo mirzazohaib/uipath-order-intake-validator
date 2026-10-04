@@ -2,6 +2,10 @@
 
 This file contains the workflow diagrams for the RPA Order Intake Validator project.
 
+---
+
+# Version 1 – Validator
+
 ## High-level automation flow
 
 ```mermaid
@@ -79,3 +83,49 @@ flowchart TD
 ```
 
 Business exceptions are expected validation failures, such as missing email or invalid quantity. Runtime exceptions are unexpected technical problems, such as a missing file, locked workbook, or corrupted Excel structure.
+
+---
+
+# Version 2 – Enterprise Solution
+
+```mermaid
+flowchart LR
+
+Excel --> Dispatcher
+
+Dispatcher --> Queue
+
+Queue --> Performer
+
+Performer --> Valid
+
+Performer --> BusinessException
+
+Performer --> SystemException
+```
+
+---
+
+# REFramework Transaction Lifecycle
+
+```mermaid
+flowchart LR
+
+Init
+
+-->
+
+GetTransactionData
+
+-->
+
+Process
+
+-->
+
+SetTransactionStatus
+
+-->
+
+GetTransactionData
+```

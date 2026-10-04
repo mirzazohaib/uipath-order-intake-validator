@@ -1,0 +1,15 @@
+# Normalize line endings
+* text=auto
+
+# UiPath XML files
+*.xaml text
+
+# JSON
+*.json text
+
+# Markdown
+*.md text
+
+# Excel
+*.xlsx binary
+*.xlsm binary
