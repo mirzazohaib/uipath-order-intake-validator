@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on Keep a Changelog.
+The format is inspired by _Keep a Changelog_.
 
 ---
 
@@ -10,31 +10,35 @@ The format is based on Keep a Changelog.
 
 ### Added
 
-- Repository restructured to support an enterprise Dispatcher–Performer architecture
-- New Dispatcher UiPath project
-- Git branching strategy (`main`, `develop`, `feature/*`)
-- Documentation structure (`docs/`, `config/`)
+- Dispatcher UiPath project
+- Repository documentation
+- CHANGELOG.md
+- ROADMAP.md
+- Architecture documentation
+- Design decision documentation
+- Mermaid workflow diagrams
+- Git branching strategy
+- `.gitattributes`
 
 ### Changed
 
+- Reorganized repository structure
 - Renamed `OrderIntakeValidator` to `ValidatorV1`
-- Moved Validator V1 under `UiPath/ValidatorV1`
-- Output folder now stores only `.gitkeep`; generated Excel files are no longer version controlled
-
-### Planned
-
-- Config.xlsx
-- Unique Queue References
-- REFramework Performer
+- Removed generated Excel output files from version control
+- Added `output/.gitkeep`
+- Updated `.gitignore`
 
 ---
 
-## [1.0.0] - Initial Release
+## [1.0.0]
 
 ### Added
 
-- Excel-based Order Intake Validator
+- ValidatorV1
+- Excel order validation
 - Business-rule validation
 - Exception reporting
 - Processing summary
-- Logging and top-level error handling
+- Basic logging
+- Top-level Try/Catch
+- Relative project paths
